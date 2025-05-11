@@ -1,3 +1,4 @@
 [submodule "veris/VCDB"]
 	path = veris/VCDB
 	url = git@github.com:vz-risk/VCDB.git
+	ignore = dirty
