@@ -1,0 +1,614 @@
+{
+    "Restrict Web-Based Content": {
+        "id": "M1021",
+        "description": "Restrict use of certain websites, block downloads/attachments, block Javascript, restrict browser extensions, etc.",
+        "techniques": [
+            "Phishing",
+            "Spearphishing Attachment",
+            "User Execution",
+            "System Binary Proxy Execution",
+            "Command and Scripting Interpreter",
+            "Visual Basic",
+            "Spearphishing Link",
+            "Malicious Link",
+            "Web Service",
+            "Bidirectional Communication",
+            "Spearphishing via Service",
+            "JavaScript",
+            "Compiled HTML File",
+            "Exfiltration Over Web Service",
+            "Exfiltration to Cloud Storage"
+        ],
+        "count": 818529
+    },
+    "User Training": {
+        "id": "M1017",
+        "description": "Train users to be aware of access or manipulation attempts by an adversary to reduce the risk of successful spearphishing, social engineering, and other techniques that involve user interaction.",
+        "techniques": [
+            "Phishing",
+            "Spearphishing Attachment",
+            "User Execution",
+            "Malicious File",
+            "Obfuscated Files or Information",
+            "Spearphishing Link",
+            "Malicious Link",
+            "Masquerading",
+            "Spearphishing via Service",
+            "Adversary-in-the-Middle"
+        ],
+        "count": 815926
+    },
+    "Software Configuration": {
+        "id": "M1054",
+        "description": "Implement configuration changes to software (other than the operating system) to mitigate security risks associated to how the software operates.",
+        "techniques": [
+            "Phishing",
+            "Spearphishing Attachment",
+            "Create or Modify System Process",
+            "Impair Defenses",
+            "Spearphishing Link",
+            "Inter-Process Communication",
+            "Dynamic Data Exchange",
+            "Subvert Trust Controls"
+        ],
+        "count": 810513
+    },
+    "Audit": {
+        "id": "M1047",
+        "description": "Perform audits or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses.",
+        "techniques": [
+            "Phishing",
+            "Create or Modify System Process",
+            "Windows Service",
+            "Obfuscated Files or Information",
+            "Scheduled Task/Job",
+            "Scheduled Task",
+            "Impair Defenses",
+            "Disable or Modify System Firewall",
+            "Spearphishing Link",
+            "Server Software Component",
+            "Remote Services",
+            "Remote Desktop Protocol",
+            "Search Open Websites/Domains",
+            "Cron",
+            "Hijack Execution Flow",
+            "Pre-OS Boot",
+            "IIS Components",
+            "Abuse Elevation Control Mechanism",
+            "Bypass User Account Control",
+            "Archive Collected Data",
+            "Archive via Utility"
+        ],
+        "count": 778861
+    },
+    "Antivirus/Antimalware": {
+        "id": "M1049",
+        "description": "Use signatures or heuristics to detect malicious software.",
+        "techniques": [
+            "Phishing",
+            "Spearphishing Attachment",
+            "Obfuscated Files or Information",
+            "Command and Scripting Interpreter",
+            "PowerShell",
+            "Visual Basic",
+            "Software Packing",
+            "Masquerading",
+            "Spearphishing via Service",
+            "Command Obfuscation",
+            "Hide Artifacts",
+            "Masquerade File Type",
+            "Encrypted/Encoded File"
+        ],
+        "count": 528031
+    },
+    "Network Intrusion Prevention": {
+        "id": "M1031",
+        "description": "Use intrusion detection signatures to block traffic at network boundaries.",
+        "techniques": [
+            "Phishing",
+            "Spearphishing Attachment",
+            "User Execution",
+            "Application Layer Protocol",
+            "Web Protocols",
+            "Malicious Link",
+            "Encrypted Channel",
+            "Web Service",
+            "Bidirectional Communication",
+            "Adversary-in-the-Middle",
+            "LLMNR/NBT-NS Poisoning and SMB Relay",
+            "DNS",
+            "Asymmetric Cryptography",
+            "Data Encoding",
+            "Standard Encoding",
+            "Data Obfuscation",
+            "Protocol Impersonation",
+            "Symmetric Cryptography",
+            "Proxy",
+            "Internal Proxy",
+            "External Proxy",
+            "Exfiltration Over Alternative Protocol",
+            "Exfiltration Over Unencrypted Non-C2 Protocol"
+        ],
+        "count": 525161
+    },
+    "User Account Management": {
+        "id": "M1018",
+        "description": "Manage the creation, modification, use, and permissions associated to user accounts.",
+        "techniques": [
+            "Create or Modify System Process",
+            "Windows Service",
+            "Scheduled Task/Job",
+            "Scheduled Task",
+            "Impair Defenses",
+            "Disable or Modify System Firewall",
+            "Spearphishing Link",
+            "Server Software Component",
+            "Remote Services",
+            "Remote Desktop Protocol",
+            "Cron",
+            "System Services",
+            "Web Shell",
+            "Shortcut Modification",
+            "Hijack Execution Flow",
+            "Abuse Elevation Control Mechanism",
+            "Access Token Manipulation",
+            "Create Process with Token",
+            "Disable or Modify Tools",
+            "Brute Force",
+            "Account Discovery",
+            "SSH",
+            "Exfiltration Over Alternative Protocol"
+        ],
+        "count": 417997
+    },
+    "Multi-factor Authentication": {
+        "id": "M1032",
+        "description": "Use two or more pieces of evidence to authenticate to a system; such as username and password in addition to a token from a physical smart card or token generator.",
+        "techniques": [
+            "Remote Services",
+            "Remote Desktop Protocol",
+            "Brute Force",
+            "Password Spraying",
+            "Domain Account",
+            "SSH"
+        ],
+        "count": 203110
+    },
+    "Password Policies": {
+        "id": "M1027",
+        "description": "Set and enforce secure password policies for accounts.",
+        "techniques": [
+            "Remote Services",
+            "Brute Force",
+            "Password Spraying",
+            "SMB/Windows Admin Shares"
+        ],
+        "count": 194808
+    },
+    "Account Use Policies": {
+        "id": "M1036",
+        "description": "Configure features related to account use like login attempt lockouts, specific login times, etc.",
+        "techniques": [
+            "Brute Force",
+            "Password Spraying"
+        ],
+        "count": 189780
+    },
+    "Privileged Account Management": {
+        "id": "M1026",
+        "description": "Manage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root.",
+        "techniques": [
+            "Create or Modify System Process",
+            "System Binary Proxy Execution",
+            "Command and Scripting Interpreter",
+            "PowerShell",
+            "Scheduled Task/Job",
+            "Scheduled Task",
+            "Server Software Component",
+            "Remote Desktop Protocol",
+            "System Services",
+            "Service Execution",
+            "Inter-Process Communication",
+            "Pre-OS Boot",
+            "Bootkit",
+            "IIS Components",
+            "Abuse Elevation Control Mechanism",
+            "Bypass User Account Control",
+            "Access Token Manipulation",
+            "Create Process with Token",
+            "Process Injection",
+            "Subvert Trust Controls",
+            "Domain Account",
+            "SMB/Windows Admin Shares"
+        ],
+        "count": 33013
+    },
+    "Behavior Prevention on Endpoint": {
+        "id": "M1040",
+        "description": "Use capabilities to prevent suspicious behavior patterns from occurring on endpoint systems. This could include suspicious process, file, API call, etc. behavior.",
+        "techniques": [
+            "User Execution",
+            "Malicious File",
+            "Create or Modify System Process",
+            "Windows Service",
+            "Obfuscated Files or Information",
+            "Command and Scripting Interpreter",
+            "Visual Basic",
+            "Masquerading",
+            "System Services",
+            "Service Execution",
+            "JavaScript",
+            "Inter-Process Communication",
+            "Dynamic Data Exchange",
+            "Hijack Execution Flow",
+            "KernelCallbackTable",
+            "Process Injection",
+            "Dynamic-link Library Injection",
+            "Command Obfuscation",
+            "Masquerade File Type",
+            "Encrypted/Encoded File"
+        ],
+        "count": 28334
+    },
+    "Operating System Configuration": {
+        "id": "M1028",
+        "description": "Make configuration changes related to the operating system or a common feature of the operating system that result in system hardening against techniques.",
+        "techniques": [
+            "Create or Modify System Process",
+            "Windows Service",
+            "Scheduled Task/Job",
+            "Scheduled Task",
+            "Remote Desktop Protocol",
+            "Abuse Elevation Control Mechanism",
+            "Impair Command History Logging",
+            "Subvert Trust Controls",
+            "Account Discovery",
+            "Domain Account"
+        ],
+        "count": 24573
+    },
+    "Execution Prevention": {
+        "id": "M1038",
+        "description": "Block execution of code on a system through application control, and/or script blocking.",
+        "techniques": [
+            "User Execution",
+            "Malicious File",
+            "System Binary Proxy Execution",
+            "Command and Scripting Interpreter",
+            "PowerShell",
+            "Windows Command Shell",
+            "Visual Basic",
+            "Impair Defenses",
+            "Masquerading",
+            "Match Legitimate Name or Location",
+            "JavaScript",
+            "Hijack Execution Flow",
+            "IIS Components",
+            "Abuse Elevation Control Mechanism",
+            "Compiled HTML File",
+            "CMSTP",
+            "Odbcconf",
+            "Disable or Modify Tools",
+            "Masquerade File Type",
+            "Subvert Trust Controls",
+            "Mshta"
+        ],
+        "count": 20975
+    },
+    "Disable or Remove Feature or Program": {
+        "id": "M1042",
+        "description": "Remove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries.",
+        "techniques": [
+            "System Binary Proxy Execution",
+            "Command and Scripting Interpreter",
+            "PowerShell",
+            "Visual Basic",
+            "Server Software Component",
+            "Remote Services",
+            "Remote Desktop Protocol",
+            "JavaScript",
+            "Inter-Process Communication",
+            "Dynamic Data Exchange",
+            "Web Shell",
+            "CMSTP",
+            "Odbcconf",
+            "Mshta",
+            "Adversary-in-the-Middle",
+            "LLMNR/NBT-NS Poisoning and SMB Relay",
+            "SSH"
+        ],
+        "count": 20584
+    },
+    "Code Signing": {
+        "id": "M1045",
+        "description": "Enforce binary and application integrity with digital signature verification to prevent untrusted code from executing.",
+        "techniques": [
+            "Create or Modify System Process",
+            "Windows Service",
+            "Command and Scripting Interpreter",
+            "PowerShell",
+            "Server Software Component",
+            "Masquerading",
+            "Match Legitimate Name or Location",
+            "IIS Components"
+        ],
+        "count": 16243
+    },
+    "Restrict File and Directory Permissions": {
+        "id": "M1022",
+        "description": "Restrict access by setting directory and file permissions that are not specific to users or privileged accounts.",
+        "techniques": [
+            "Create or Modify System Process",
+            "Scheduled Task/Job",
+            "Impair Defenses",
+            "Disable or Modify System Firewall",
+            "Indicator Removal",
+            "Masquerading",
+            "Match Legitimate Name or Location",
+            "System Services",
+            "Service Execution",
+            "Boot or Logon Initialization Scripts",
+            "Hijack Execution Flow",
+            "Abuse Elevation Control Mechanism",
+            "Clear Windows Event Logs",
+            "Disable or Modify Tools",
+            "Clear Command History",
+            "Rename System Utilities",
+            "Exfiltration Over Alternative Protocol",
+            "Data Manipulation",
+            "Stored Data Manipulation",
+            "Runtime Data Manipulation"
+        ],
+        "count": 11486
+    },
+    "Network Segmentation": {
+        "id": "M1030",
+        "description": "Architect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network. Configure separate virtual private cloud (VPC) instances to isolate critical cloud systems.",
+        "techniques": [
+            "Remote Desktop Protocol",
+            "Adversary-in-the-Middle",
+            "LLMNR/NBT-NS Poisoning and SMB Relay",
+            "Domain Account",
+            "Exfiltration Over Alternative Protocol",
+            "Exfiltration Over Unencrypted Non-C2 Protocol",
+            "Data Manipulation",
+            "Runtime Data Manipulation"
+        ],
+        "count": 11462
+    },
+    "Filter Network Traffic": {
+        "id": "M1037",
+        "description": "Use network appliances to filter ingress or egress traffic and perform protocol-based filtering. Configure software on endpoints to filter network traffic.",
+        "techniques": [
+            "System Binary Proxy Execution",
+            "Application Layer Protocol",
+            "Adversary-in-the-Middle",
+            "LLMNR/NBT-NS Poisoning and SMB Relay",
+            "SMB/Windows Admin Shares",
+            "DNS",
+            "Proxy",
+            "Exfiltration Over Alternative Protocol",
+            "Exfiltration Over Unencrypted Non-C2 Protocol"
+        ],
+        "count": 7607
+    },
+    "Limit Access to Resource Over Network": {
+        "id": "M1035",
+        "description": "Prevent access to file shares, remote access to systems, unnecessary services. Mechanisms to limit access may include use of network concentrators, RDP gateways, etc.",
+        "techniques": [
+            "Remote Services",
+            "Remote Desktop Protocol",
+            "Pre-OS Boot",
+            "Adversary-in-the-Middle",
+            "SMB/Windows Admin Shares"
+        ],
+        "count": 7042
+    },
+    "Application Developer Guidance": {
+        "id": "M1013",
+        "description": "This mitigation describes any guidance or training given to developers of applications to avoid introducing security weaknesses that an adversary may be able to take advantage of.",
+        "techniques": [
+            "Search Open Websites/Domains",
+            "Supply Chain Compromise",
+            "Inter-Process Communication",
+            "Hijack Execution Flow",
+            "DLL Side-Loading",
+            "Hide Artifacts"
+        ],
+        "count": 3599
+    },
+    "Limit Software Installation": {
+        "id": "M1033",
+        "description": "Block users or groups from installing unapproved software.",
+        "techniques": [
+            "Create or Modify System Process",
+            "Supply Chain Compromise",
+            "Hide Artifacts"
+        ],
+        "count": 3289
+    },
+    "Encrypt Sensitive Information": {
+        "id": "M1041",
+        "description": "Protect sensitive information with strong encryption.",
+        "techniques": [
+            "Indicator Removal",
+            "Clear Windows Event Logs",
+            "Adversary-in-the-Middle",
+            "Data Manipulation",
+            "Stored Data Manipulation",
+            "Transmitted Data Manipulation"
+        ],
+        "count": 1958
+    },
+    "Application Isolation and Sandboxing": {
+        "id": "M1048",
+        "description": "Restrict execution of code to a virtual environment on or in transit to an endpoint system.",
+        "techniques": [
+            "Inter-Process Communication",
+            "Dynamic Data Exchange"
+        ],
+        "count": 1794
+    },
+    "SSL/TLS Inspection": {
+        "id": "M1020",
+        "description": "Break and inspect SSL/TLS sessions to look at encrypted web traffic for adversary activity.",
+        "techniques": [
+            "Encrypted Channel",
+            "Asymmetric Cryptography",
+            "Proxy"
+        ],
+        "count": 1658
+    },
+    "Restrict Registry Permissions": {
+        "id": "M1024",
+        "description": "Restrict the ability to modify certain hives or keys in the Windows Registry.",
+        "techniques": [
+            "Impair Defenses",
+            "Disable or Modify System Firewall",
+            "Server Software Component",
+            "Boot or Logon Initialization Scripts",
+            "Logon Script (Windows)",
+            "Hijack Execution Flow",
+            "Disable or Modify Tools",
+            "Subvert Trust Controls"
+        ],
+        "count": 1399
+    },
+    "Update Software": {
+        "id": "M1051",
+        "description": "Perform regular software updates to mitigate exploitation risk.",
+        "techniques": [
+            "Supply Chain Compromise",
+            "Compromise Software Supply Chain",
+            "Hijack Execution Flow",
+            "DLL Side-Loading",
+            "Pre-OS Boot",
+            "Abuse Elevation Control Mechanism",
+            "Bypass User Account Control"
+        ],
+        "count": 1376
+    },
+    "User Account Control": {
+        "id": "M1052",
+        "description": "Configure Windows User Account Control to mitigate risk of adversaries obtaining elevated process access.",
+        "techniques": [
+            "Hijack Execution Flow",
+            "Abuse Elevation Control Mechanism",
+            "Bypass User Account Control"
+        ],
+        "count": 1295
+    },
+    "Exploit Protection": {
+        "id": "M1050",
+        "description": "Use capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring.",
+        "techniques": [
+            "System Binary Proxy Execution",
+            "Rundll32",
+            "Regsvr32"
+        ],
+        "count": 1189
+    },
+    "Pre-compromise": {
+        "id": "M1056",
+        "description": "This category is used for any applicable mitigation activities that apply to techniques occurring before an adversary gains Initial Access, such as Reconnaissance and Resource Development techniques.",
+        "techniques": [
+            "Obtain Capabilities",
+            "Tool",
+            "Malware",
+            "Gather Victim Identity Information",
+            "Email Addresses",
+            "Gather Victim Org Information",
+            "Identify Roles",
+            "Social Media",
+            "Gather Victim Host Information",
+            "Software",
+            "Gather Victim Network Information",
+            "IP Addresses",
+            "Acquire Infrastructure",
+            "Domains",
+            "Server",
+            "Web Services",
+            "Compromise Infrastructure",
+            "Develop Capabilities",
+            "Code Signing Certificates",
+            "Establish Accounts",
+            "Social Media Accounts",
+            "Email Accounts",
+            "Digital Certificates",
+            "Stage Capabilities",
+            "Upload Malware",
+            "Upload Tool"
+        ],
+        "count": 1170
+    },
+    "Restrict Library Loading": {
+        "id": "M1044",
+        "description": "Prevent abuse of library loading mechanisms in the operating system and software to load untrusted code by configuring appropriate library loading mechanisms and investigating potential vulnerable software.",
+        "techniques": [
+            "Hijack Execution Flow"
+        ],
+        "count": 784
+    },
+    "Data Loss Prevention": {
+        "id": "M1057",
+        "description": "Use a data loss prevention (DLP) strategy to categorize sensitive data, identify data formats indicative of personal identifiable information (PII), and restrict exfiltration of sensitive data.(Citation: PurpleSec Data Loss Prevention)",
+        "techniques": [
+            "Exfiltration Over Alternative Protocol",
+            "Exfiltration Over Unencrypted Non-C2 Protocol",
+            "Exfiltration Over Web Service"
+        ],
+        "count": 145
+    },
+    "Remote Data Storage": {
+        "id": "M1029",
+        "description": "Use remote security log and sensitive file storage where access can be controlled better to prevent exposure of intrusion detection log data or sensitive information.",
+        "techniques": [
+            "Indicator Removal",
+            "Clear Windows Event Logs",
+            "Clear Command History",
+            "Data Manipulation",
+            "Stored Data Manipulation"
+        ],
+        "count": 128
+    },
+    "Boot Integrity": {
+        "id": "M1046",
+        "description": "Use secure methods to boot a system and verify the integrity of the operating system and loading mechanisms.",
+        "techniques": [
+            "Supply Chain Compromise",
+            "Pre-OS Boot",
+            "Bootkit"
+        ],
+        "count": 32
+    },
+    "Data Backup": {
+        "id": "M1053",
+        "description": "Take and store data backups from end user systems and critical servers. Ensure backup and storage systems are hardened and kept separate from the corporate network to prevent compromise.",
+        "techniques": [
+            "Disk Wipe",
+            "Disk Structure Wipe",
+            "Defacement",
+            "Internal Defacement",
+            "Disk Content Wipe"
+        ],
+        "count": 0
+    },
+    "Vulnerability Scanning": {
+        "id": "M1016",
+        "description": "Vulnerability scanning is used to find potentially exploitable software vulnerabilities to remediate them.",
+        "techniques": [
+            "Supply Chain Compromise",
+            "Compromise Software Supply Chain"
+        ],
+        "count": 0
+    },
+    "Environment Variable Permissions": {
+        "id": "M1039",
+        "description": "Prevent modification of environment variables by unauthorized users and groups.",
+        "techniques": [
+            "Impair Command History Logging",
+            "Clear Command History"
+        ],
+        "count": 0
+    }
+}
