@@ -2,3 +2,6 @@
 	path = veris/VCDB
 	url = git@github.com:vz-risk/VCDB.git
 	ignore = dirty
+[submodule "consortium/design/attack-stix-data"]
+	path = consortium/design/attack-stix-data
+	url = git@github.com:mitre-attack/attack-stix-data.git
