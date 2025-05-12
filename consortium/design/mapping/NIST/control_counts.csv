@@ -1,0 +1,87 @@
+SI-04,SI,System Monitoring,160
+CM-02,CM,Baseline Configuration,141
+CM-06,CM,Configuration Settings,140
+SI-03,SI,Malicious Code Protection,126
+CA-07,CA,Continuous Monitoring,106
+AC-03,AC,Access Enforcement,96
+CM-07,CM,Least Functionality,96
+AC-06,AC,Least Privilege,87
+SI-07,SI,"Software, Firmware, and Information Integrity",86
+AC-02,AC,Account Management,76
+SC-07,SC,Boundary Protection,73
+AC-04,AC,Information Flow Enforcement,66
+AC-05,AC,Separation of Duties,61
+IA-02,IA,Identification and Authentication (organizational Users),56
+CM-05,CM,Access Restrictions for Change,54
+SI-10,SI,Information Input Validation,50
+RA-05,RA,Vulnerability Monitoring and Scanning,48
+SI-02,SI,Flaw Remediation,44
+CM-08,CM,System Component Inventory,41
+AC-17,AC,Remote Access,35
+SI-16,SI,Memory Protection,30
+IA-09,IA,Service Identification and Authentication,29
+CA-08,CA,Penetration Testing,28
+SC-44,SC,Detonation Chambers,27
+SI-08,SI,Spam Protection,27
+CM-11,CM,User-installed Software,25
+SC-20,SC,Secure Name/address Resolution Service (authoritative Source),23
+AC-20,AC,Use of External Systems,17
+IA-04,IA,Identifier Management,17
+CP-09,CP,System Backup,14
+AC-16,AC,Security and Privacy Attributes,14
+SC-18,SC,Mobile Code,13
+SC-23,SC,Session Authenticity,13
+CP-07,CP,Alternate Processing Site,13
+IA-08,IA,Identification and Authentication (non-organizational Users),11
+SC-31,SC,Covert Channel Analysis,10
+SC-08,SC,Transmission Confidentiality and Integrity,9
+CP-10,CP,System Recovery and Reconstitution,9
+SC-04,SC,Information in Shared System Resources,9
+SI-12,SI,Information Management and Retention,9
+IA-05,IA,Authenticator Management,8
+SC-46,SC,Cross Domain Policy Enforcement,8
+AC-18,AC,Wireless Access,8
+AC-07,AC,Unsuccessful Logon Attempts,7
+SC-10,SC,Network Disconnect,7
+SC-21,SC,Secure Name/address Resolution Service (recursive or Caching Resolver),7
+SC-22,SC,Architecture and Provisioning for Name/address Resolution Service,7
+SC-37,SC,Out-of-band Channels,7
+SI-15,SI,Information Output Filtering,7
+CP-02,CP,Contingency Plan,7
+SA-10,SA,Developer Configuration Management,7
+SA-11,SA,Developer Testing and Evaluation,7
+CM-03,CM,Configuration Change Control,7
+SA-22,SA,Unsupported System Components,6
+SC-16,SC,Transmission of Security and Privacy Attributes,6
+SR-04,SR,Provenance,6
+CP-06,CP,Alternate Storage Site,6
+SC-28,SC,Protection of Information at Rest,6
+SC-36,SC,Distributed Processing and Storage,6
+SI-23,SI,Information Fragmentation,6
+AC-19,AC,Access Control for Mobile Devices,5
+SC-34,SC,Non-modifiable Executable Programs,4
+SC-12,SC,Cryptographic Key Establishment and Management,4
+SA-08,SA,Security and Privacy Engineering Principles,4
+SI-14,SI,Non-persistence,3
+SR-11,SR,Component Authenticity,3
+SR-05,SR,"Acquisition Strategies, Tools, and Methods",3
+SR-06,SR,Supplier Assessments and Reviews,3
+IA-07,IA,Cryptographic Module Authentication,3
+RA-09,RA,Criticality Analysis,3
+CM-10,CM,Software Usage Restrictions,3
+AC-23,AC,Data Mining Protection,3
+CA-03,CA,Information Exchange,3
+SA-09,SA,External System Services,3
+IA-11,IA,Re-authentication,2
+CA-02,CA,Control Assessments,2
+RA-10,RA,Threat Hunting,2
+SC-03,SC,Security Function Isolation,2
+AC-11,AC,Device Lock,2
+AC-12,AC,Session Termination,2
+IA-06,IA,Authentication Feedback,2
+SA-15,SA,"Development Process, Standards, and Tools",1
+SA-16,SA,Developer-provided Training,1
+SA-17,SA,Developer Security and Privacy Architecture and Design,1
+SA-03,SA,System Development Life Cycle,1
+SA-04,SA,Acquisition Process,1
+SC-13,SC,Cryptographic Protection,1

@@ -1,0 +1,1074 @@
+{
+    "Mitigations": {
+        "Establish and Maintain a Secure Configuration Process": {
+            "id": 4,
+            "count": 2491
+        },
+        "Establish an Access Granting Process": {
+            "id": 6,
+            "count": 1636
+        },
+        "Establish an Access Revoking Process": {
+            "id": 6,
+            "count": 1636
+        },
+        "Allowlist Authorized Software": {
+            "id": 2,
+            "count": 1547
+        },
+        "Manage Default Accounts on Enterprise Assets and Software": {
+            "id": 4,
+            "count": 1520
+        },
+        "Define and Maintain Role-Based Access Control": {
+            "id": 6,
+            "count": 1494
+        },
+        "Restrict Administrator Privileges to Dedicated Administrator Accounts": {
+            "id": 5,
+            "count": 1490
+        },
+        "Disable Dormant Accounts": {
+            "id": 5,
+            "count": 1454
+        },
+        "Remediate Penetration Test Findings": {
+            "id": 18,
+            "count": 1121
+        },
+        "Allowlist Authorized Scripts": {
+            "id": 2,
+            "count": 1052
+        },
+        "Perform Periodic Internal Penetration Tests": {
+            "id": 18,
+            "count": 964
+        },
+        "Address Unauthorized Software": {
+            "id": 2,
+            "count": 685
+        },
+        "Uninstall or Disable Unnecessary Services on Enterprise Assets and Software": {
+            "id": 4,
+            "count": 570
+        },
+        "Configure Data Access Control Lists": {
+            "id": 3,
+            "count": 465
+        },
+        "Deploy a Network Intrusion Detection Solution": {
+            "id": 13,
+            "count": 424
+        },
+        "Deploy a Network Intrusion Prevention Solution": {
+            "id": 13,
+            "count": 424
+        },
+        "Allowlist Authorized Libraries": {
+            "id": 2,
+            "count": 342
+        },
+        "Deploy a Host-Based Intrusion Prevention Solution": {
+            "id": 13,
+            "count": 329
+        },
+        "Deploy a Host-Based Intrusion Detection Solution": {
+            "id": 13,
+            "count": 291
+        },
+        "Establish and Maintain a Security Awareness Program": {
+            "id": 14,
+            "count": 275
+        },
+        "Establish and Maintain a Secure Configuration Process for Network Infrastructure": {
+            "id": 4,
+            "count": 271
+        },
+        "Perform Automated Vulnerability Scans of Externally-Exposed Enterprise Assets": {
+            "id": 7,
+            "count": 256
+        },
+        "Remediate Detected Vulnerabilities": {
+            "id": 7,
+            "count": 256
+        },
+        "Use Unique Passwords": {
+            "id": 5,
+            "count": 237
+        },
+        "Establish and Maintain a Secure Network Architecture": {
+            "id": 12,
+            "count": 223
+        },
+        "Maintain and Enforce Network-Based URL Filters": {
+            "id": 9,
+            "count": 218
+        },
+        "Apply Secure Design Principles in Application Architectures": {
+            "id": 16,
+            "count": 207
+        },
+        "Train Workforce Members to Recognize Social Engineering Attacks": {
+            "id": 14,
+            "count": 187
+        },
+        "Train Workforce Members on Recognizing and Reporting Security Incidents": {
+            "id": 14,
+            "count": 187
+        },
+        "Establish and Maintain an Inventory of Service Accounts": {
+            "id": 5,
+            "count": 185
+        },
+        "Implement and Manage a Firewall on Servers": {
+            "id": 4,
+            "count": 171
+        },
+        "Perform Periodic External Penetration Tests": {
+            "id": 18,
+            "count": 159
+        },
+        "Train Workforce Members on Authentication Best Practices": {
+            "id": 14,
+            "count": 145
+        },
+        "Establish and Maintain a Secure Application Development\u00a0Process": {
+            "id": 16,
+            "count": 145
+        },
+        "Train Developers in Application Security Concepts and Secure Coding": {
+            "id": 16,
+            "count": 133
+        },
+        "Protect Recovery Data": {
+            "id": 11,
+            "count": 121
+        },
+        "Perform Traffic Filtering Between Network Segments": {
+            "id": 13,
+            "count": 108
+        },
+        "Block Unnecessary File Types": {
+            "id": 9,
+            "count": 99
+        },
+        "Enable Anti-Exploitation Features": {
+            "id": 10,
+            "count": 99
+        },
+        "Train Workforce on Data Handling Best Practices": {
+            "id": 14,
+            "count": 99
+        },
+        "Establish and Maintain an Inventory of Accounts": {
+            "id": 5,
+            "count": 95
+        },
+        "Segment Data Processing and Storage Based on Sensitivity": {
+            "id": 3,
+            "count": 94
+        },
+        "Establish and Maintain an Isolated Instance of Recovery Data\u00a0": {
+            "id": 11,
+            "count": 94
+        },
+        "Establish and Maintain Dedicated Computing Resources for All Administrative Work": {
+            "id": 12,
+            "count": 90
+        },
+        "Encrypt Sensitive Data in Transit": {
+            "id": 3,
+            "count": 80
+        },
+        "Establish and Maintain a Data Recovery Process\u00a0": {
+            "id": 11,
+            "count": 73
+        },
+        "Perform Automated Backups\u00a0": {
+            "id": 11,
+            "count": 73
+        },
+        "Test Data Recovery": {
+            "id": 11,
+            "count": 73
+        },
+        "Require MFA for Administrative Access": {
+            "id": 6,
+            "count": 66
+        },
+        "Deploy and Maintain Anti-Malware Software": {
+            "id": 10,
+            "count": 63
+        },
+        "Configure Automatic Anti-Malware Signature Updates": {
+            "id": 10,
+            "count": 63
+        },
+        "Use Behavior-Based Anti-Malware Software": {
+            "id": 10,
+            "count": 63
+        },
+        "Require MFA for Remote Network Access": {
+            "id": 6,
+            "count": 62
+        },
+        "Establish and Maintain a Vulnerability Management Process": {
+            "id": 7,
+            "count": 54
+        },
+        "Establish and Maintain a Remediation Process": {
+            "id": 7,
+            "count": 54
+        },
+        "Perform Automated Vulnerability Scans of Internal Enterprise Assets": {
+            "id": 7,
+            "count": 50
+        },
+        "Use DNS Filtering Services": {
+            "id": 9,
+            "count": 50
+        },
+        "Encrypt Sensitive Data At Rest": {
+            "id": 3,
+            "count": 48
+        },
+        "Perform Automated Operating System Patch Management": {
+            "id": 7,
+            "count": 48
+        },
+        "Disable Autorun and Autoplay for Removable Media": {
+            "id": 10,
+            "count": 48
+        },
+        "Restrict Unnecessary or Unauthorized Browser and Email Client Extensions": {
+            "id": 9,
+            "count": 47
+        },
+        "Implement and Manage a Firewall on End-User Devices": {
+            "id": 4,
+            "count": 43
+        },
+        "Deploy and Maintain Email Server Anti-Malware Protections": {
+            "id": 9,
+            "count": 36
+        },
+        "Require MFA for Externally-Exposed Applications": {
+            "id": 6,
+            "count": 34
+        },
+        "Train Workforce Members on Causes of Unintentional Data Exposure": {
+            "id": 14,
+            "count": 33
+        },
+        "Conduct Role-Specific Security Awareness and Skills Training": {
+            "id": 14,
+            "count": 33
+        },
+        "Perform Automated Application Patch Management": {
+            "id": 7,
+            "count": 32
+        },
+        "Centralize Network Authentication, Authorization, and Auditing (AAA)": {
+            "id": 12,
+            "count": 32
+        },
+        "Perform Application Layer Filtering": {
+            "id": 13,
+            "count": 28
+        },
+        "Establish and Maintain an Audit Log Management Process": {
+            "id": 8,
+            "count": 26
+        },
+        "Collect Audit Logs": {
+            "id": 8,
+            "count": 26
+        },
+        "Ensure Adequate Audit Log Storage": {
+            "id": 8,
+            "count": 26
+        },
+        "Separate Production and Non-Production Systems": {
+            "id": 16,
+            "count": 26
+        },
+        "Securely Manage Enterprise Assets and Software": {
+            "id": 4,
+            "count": 24
+        },
+        "Establish and Maintain a Data Management Process": {
+            "id": 3,
+            "count": 23
+        },
+        "Centralize Audit Logs": {
+            "id": 8,
+            "count": 18
+        },
+        "Retain Audit Logs": {
+            "id": 8,
+            "count": 18
+        },
+        "Enforce Data Retention": {
+            "id": 3,
+            "count": 15
+        },
+        "Establish and Maintain a Process to Accept and Address Software Vulnerabilities": {
+            "id": 16,
+            "count": 12
+        },
+        "Perform Root Cause Analysis on Security Vulnerabilities": {
+            "id": 16,
+            "count": 12
+        },
+        "Establish and Manage an Inventory of Third-Party Software Components": {
+            "id": 16,
+            "count": 12
+        },
+        "Use Up-to-Date and Trusted Third-Party Software Components": {
+            "id": 16,
+            "count": 12
+        },
+        "Leverage Vetted Modules or Services for Application Security Components": {
+            "id": 16,
+            "count": 12
+        },
+        "Conduct Application Penetration Testing": {
+            "id": 16,
+            "count": 12
+        },
+        "Establish and Maintain a Data Inventory": {
+            "id": 3,
+            "count": 8
+        },
+        "Enforce Automatic Device Lockout on Portable End-User Devices": {
+            "id": 4,
+            "count": 8
+        },
+        "Ensure Network Infrastructure is Up-to-Date": {
+            "id": 12,
+            "count": 8
+        },
+        "Encrypt Data on End-User Devices": {
+            "id": 3,
+            "count": 6
+        },
+        "Implement Code-Level Security Checks": {
+            "id": 16,
+            "count": 6
+        },
+        "Establish and Maintain a Penetration Testing Program": {
+            "id": 18,
+            "count": 6
+        },
+        "Establish and Maintain a Software Inventory": {
+            "id": 2,
+            "count": 4
+        },
+        "Ensure Authorized Software is Currently Supported ": {
+            "id": 2,
+            "count": 4
+        },
+        "Utilize Automated Software Inventory Tools": {
+            "id": 2,
+            "count": 4
+        },
+        "Configure Trusted DNS Servers on Enterprise Assets": {
+            "id": 4,
+            "count": 4
+        },
+        "Ensure Remote Devices Utilize a VPN and are Connecting to an Enterprise\u2019s AAA Infrastructure": {
+            "id": 12,
+            "count": 4
+        },
+        "Manage Access Control for Remote Assets": {
+            "id": 13,
+            "count": 4
+        },
+        "Collect Detailed Audit Logs": {
+            "id": 8,
+            "count": 3
+        },
+        "Conduct Audit Log Reviews": {
+            "id": 8,
+            "count": 3
+        },
+        "Securely Decommission Service Providers": {
+            "id": 15,
+            "count": 3
+        },
+        "Ensure Use of Only Fully Supported Browsers and Email Clients": {
+            "id": 9,
+            "count": 2
+        },
+        "Establish and Maintain Detailed Enterprise Asset Inventory": {
+            "id": 1,
+            "count": 1
+        },
+        "Address Unauthorized Assets": {
+            "id": 1,
+            "count": 1
+        },
+        "Use Dynamic Host Configuration Protocol (DHCP) Logging to Update Enterprise Asset Inventory": {
+            "id": 1,
+            "count": 1
+        },
+        "Use of Secure Network Management and Communication Protocols\u00a0": {
+            "id": 12,
+            "count": 1
+        },
+        "Deploy Port-Level Access Control": {
+            "id": 13,
+            "count": 1
+        }
+    },
+    "Techniques": {
+        "Establish and Maintain a Secure Configuration Process": {
+            "id": 4,
+            "count": 164
+        },
+        "Establish an Access Granting Process": {
+            "id": 6,
+            "count": 102
+        },
+        "Establish an Access Revoking Process": {
+            "id": 6,
+            "count": 102
+        },
+        "Define and Maintain Role-Based Access Control": {
+            "id": 6,
+            "count": 100
+        },
+        "Allowlist Authorized Scripts": {
+            "id": 2,
+            "count": 96
+        },
+        "Allowlist Authorized Software": {
+            "id": 2,
+            "count": 77
+        },
+        "Remediate Penetration Test Findings": {
+            "id": 18,
+            "count": 76
+        },
+        "Restrict Administrator Privileges to Dedicated Administrator Accounts": {
+            "id": 5,
+            "count": 75
+        },
+        "Perform Periodic Internal Penetration Tests": {
+            "id": 18,
+            "count": 71
+        },
+        "Manage Default Accounts on Enterprise Assets and Software": {
+            "id": 4,
+            "count": 66
+        },
+        "Disable Dormant Accounts": {
+            "id": 5,
+            "count": 63
+        },
+        "Address Unauthorized Software": {
+            "id": 2,
+            "count": 57
+        },
+        "Deploy a Network Intrusion Detection Solution": {
+            "id": 13,
+            "count": 40
+        },
+        "Deploy a Network Intrusion Prevention Solution": {
+            "id": 13,
+            "count": 40
+        },
+        "Configure Data Access Control Lists": {
+            "id": 3,
+            "count": 38
+        },
+        "Uninstall or Disable Unnecessary Services on Enterprise Assets and Software": {
+            "id": 4,
+            "count": 33
+        },
+        "Maintain and Enforce Network-Based URL Filters": {
+            "id": 9,
+            "count": 33
+        },
+        "Block Unnecessary File Types": {
+            "id": 9,
+            "count": 22
+        },
+        "Train Workforce Members to Recognize Social Engineering Attacks": {
+            "id": 14,
+            "count": 22
+        },
+        "Train Workforce Members on Recognizing and Reporting Security Incidents": {
+            "id": 14,
+            "count": 22
+        },
+        "Establish and Maintain a Security Awareness Program": {
+            "id": 14,
+            "count": 21
+        },
+        "Deploy a Host-Based Intrusion Prevention Solution": {
+            "id": 13,
+            "count": 19
+        },
+        "Deploy a Host-Based Intrusion Detection Solution": {
+            "id": 13,
+            "count": 17
+        },
+        "Establish and Maintain a Secure Configuration Process for Network Infrastructure": {
+            "id": 4,
+            "count": 16
+        },
+        "Implement and Manage a Firewall on Servers": {
+            "id": 4,
+            "count": 16
+        },
+        "Deploy and Maintain Anti-Malware Software": {
+            "id": 10,
+            "count": 15
+        },
+        "Configure Automatic Anti-Malware Signature Updates": {
+            "id": 10,
+            "count": 15
+        },
+        "Use Behavior-Based Anti-Malware Software": {
+            "id": 10,
+            "count": 15
+        },
+        "Protect Recovery Data": {
+            "id": 11,
+            "count": 14
+        },
+        "Establish and Maintain Dedicated Computing Resources for All Administrative Work": {
+            "id": 12,
+            "count": 14
+        },
+        "Apply Secure Design Principles in Application Architectures": {
+            "id": 16,
+            "count": 14
+        },
+        "Segment Data Processing and Storage Based on Sensitivity": {
+            "id": 3,
+            "count": 12
+        },
+        "Establish and Maintain a Secure Network Architecture": {
+            "id": 12,
+            "count": 12
+        },
+        "Establish and Maintain an Isolated Instance of Recovery Data\u00a0": {
+            "id": 11,
+            "count": 11
+        },
+        "Perform Automated Vulnerability Scans of Externally-Exposed Enterprise Assets": {
+            "id": 7,
+            "count": 10
+        },
+        "Deploy and Maintain Email Server Anti-Malware Protections": {
+            "id": 9,
+            "count": 9
+        },
+        "Enable Anti-Exploitation Features": {
+            "id": 10,
+            "count": 9
+        },
+        "Establish and Maintain a Data Recovery Process\u00a0": {
+            "id": 11,
+            "count": 9
+        },
+        "Perform Automated Backups\u00a0": {
+            "id": 11,
+            "count": 9
+        },
+        "Test Data Recovery": {
+            "id": 11,
+            "count": 9
+        },
+        "Remediate Detected Vulnerabilities": {
+            "id": 7,
+            "count": 8
+        },
+        "Encrypt Sensitive Data in Transit": {
+            "id": 3,
+            "count": 7
+        },
+        "Require MFA for Remote Network Access": {
+            "id": 6,
+            "count": 7
+        },
+        "Require MFA for Administrative Access": {
+            "id": 6,
+            "count": 7
+        },
+        "Ensure Adequate Audit Log Storage": {
+            "id": 8,
+            "count": 7
+        },
+        "Encrypt Sensitive Data At Rest": {
+            "id": 3,
+            "count": 6
+        },
+        "Establish and Maintain a Vulnerability Management Process": {
+            "id": 7,
+            "count": 6
+        },
+        "Establish and Maintain a Remediation Process": {
+            "id": 7,
+            "count": 6
+        },
+        "Perform Automated Operating System Patch Management": {
+            "id": 7,
+            "count": 6
+        },
+        "Perform Automated Vulnerability Scans of Internal Enterprise Assets": {
+            "id": 7,
+            "count": 6
+        },
+        "Centralize Audit Logs": {
+            "id": 8,
+            "count": 6
+        },
+        "Perform Traffic Filtering Between Network Segments": {
+            "id": 13,
+            "count": 6
+        },
+        "Allowlist Authorized Libraries": {
+            "id": 2,
+            "count": 5
+        },
+        "Establish and Maintain an Audit Log Management Process": {
+            "id": 8,
+            "count": 5
+        },
+        "Collect Audit Logs": {
+            "id": 8,
+            "count": 5
+        },
+        "Retain Audit Logs": {
+            "id": 8,
+            "count": 5
+        },
+        "Perform Periodic External Penetration Tests": {
+            "id": 18,
+            "count": 5
+        },
+        "Establish and Maintain a Data Management Process": {
+            "id": 3,
+            "count": 4
+        },
+        "Enforce Data Retention": {
+            "id": 3,
+            "count": 4
+        },
+        "Perform Automated Application Patch Management": {
+            "id": 7,
+            "count": 4
+        },
+        "Use DNS Filtering Services": {
+            "id": 9,
+            "count": 4
+        },
+        "Establish and Maintain a Secure Application Development\u00a0Process": {
+            "id": 16,
+            "count": 4
+        },
+        "Establish and Maintain a Process to Accept and Address Software Vulnerabilities": {
+            "id": 16,
+            "count": 4
+        },
+        "Perform Root Cause Analysis on Security Vulnerabilities": {
+            "id": 16,
+            "count": 4
+        },
+        "Establish and Manage an Inventory of Third-Party Software Components": {
+            "id": 16,
+            "count": 4
+        },
+        "Use Up-to-Date and Trusted Third-Party Software Components": {
+            "id": 16,
+            "count": 4
+        },
+        "Separate Production and Non-Production Systems": {
+            "id": 16,
+            "count": 4
+        },
+        "Leverage Vetted Modules or Services for Application Security Components": {
+            "id": 16,
+            "count": 4
+        },
+        "Implement and Manage a Firewall on End-User Devices": {
+            "id": 4,
+            "count": 3
+        },
+        "Use Unique Passwords": {
+            "id": 5,
+            "count": 3
+        },
+        "Perform Application Layer Filtering": {
+            "id": 13,
+            "count": 3
+        },
+        "Establish and Maintain a Software Inventory": {
+            "id": 2,
+            "count": 2
+        },
+        "Ensure Authorized Software is Currently Supported ": {
+            "id": 2,
+            "count": 2
+        },
+        "Utilize Automated Software Inventory Tools": {
+            "id": 2,
+            "count": 2
+        },
+        "Encrypt Data on End-User Devices": {
+            "id": 3,
+            "count": 2
+        },
+        "Enforce Automatic Device Lockout on Portable End-User Devices": {
+            "id": 4,
+            "count": 2
+        },
+        "Require MFA for Externally-Exposed Applications": {
+            "id": 6,
+            "count": 2
+        },
+        "Ensure Remote Devices Utilize a VPN and are Connecting to an Enterprise\u2019s AAA Infrastructure": {
+            "id": 12,
+            "count": 2
+        },
+        "Manage Access Control for Remote Assets": {
+            "id": 13,
+            "count": 2
+        },
+        "Implement Code-Level Security Checks": {
+            "id": 16,
+            "count": 2
+        },
+        "Conduct Application Penetration Testing": {
+            "id": 16,
+            "count": 2
+        },
+        "Securely Manage Enterprise Assets and Software": {
+            "id": 4,
+            "count": 1
+        },
+        "Configure Trusted DNS Servers on Enterprise Assets": {
+            "id": 4,
+            "count": 1
+        },
+        "Collect Detailed Audit Logs": {
+            "id": 8,
+            "count": 1
+        },
+        "Conduct Audit Log Reviews": {
+            "id": 8,
+            "count": 1
+        },
+        "Establish and Maintain Detailed Enterprise Asset Inventory": {
+            "id": 1,
+            "count": 0
+        },
+        "Address Unauthorized Assets": {
+            "id": 1,
+            "count": 0
+        },
+        "Use Dynamic Host Configuration Protocol (DHCP) Logging to Update Enterprise Asset Inventory": {
+            "id": 1,
+            "count": 0
+        },
+        "Establish and Maintain a Data Inventory": {
+            "id": 3,
+            "count": 0
+        },
+        "Establish and Maintain an Inventory of Accounts": {
+            "id": 5,
+            "count": 0
+        },
+        "Establish and Maintain an Inventory of Service Accounts": {
+            "id": 5,
+            "count": 0
+        },
+        "Ensure Use of Only Fully Supported Browsers and Email Clients": {
+            "id": 9,
+            "count": 0
+        },
+        "Restrict Unnecessary or Unauthorized Browser and Email Client Extensions": {
+            "id": 9,
+            "count": 0
+        },
+        "Disable Autorun and Autoplay for Removable Media": {
+            "id": 10,
+            "count": 0
+        },
+        "Ensure Network Infrastructure is Up-to-Date": {
+            "id": 12,
+            "count": 0
+        },
+        "Centralize Network Authentication, Authorization, and Auditing (AAA)": {
+            "id": 12,
+            "count": 0
+        },
+        "Use of Secure Network Management and Communication Protocols\u00a0": {
+            "id": 12,
+            "count": 0
+        },
+        "Deploy Port-Level Access Control": {
+            "id": 13,
+            "count": 0
+        },
+        "Train Workforce Members on Authentication Best Practices": {
+            "id": 14,
+            "count": 0
+        },
+        "Train Workforce on Data Handling Best Practices": {
+            "id": 14,
+            "count": 0
+        },
+        "Train Workforce Members on Causes of Unintentional Data Exposure": {
+            "id": 14,
+            "count": 0
+        },
+        "Conduct Role-Specific Security Awareness and Skills Training": {
+            "id": 14,
+            "count": 0
+        },
+        "Securely Decommission Service Providers": {
+            "id": 15,
+            "count": 0
+        },
+        "Train Developers in Application Security Concepts and Secure Coding": {
+            "id": 16,
+            "count": 0
+        },
+        "Establish and Maintain a Penetration Testing Program": {
+            "id": 18,
+            "count": 0
+        }
+    },
+    "Excluded Mitigations": {
+        "SSL/TLS Inspection": {
+            "id": "M1020",
+            "count": 4
+        },
+        "Data Loss Prevention": {
+            "id": "M1057",
+            "count": 3
+        }
+    },
+    "Excluded Techniques": {
+        "Obtain Capabilities": {
+            "id": "T1588",
+            "count": 5
+        },
+        "Tool": {
+            "id": "T1588.002",
+            "count": 4
+        },
+        "File Deletion": {
+            "id": "T1070.004",
+            "count": 3
+        },
+        "Malware": {
+            "id": "T1587.001",
+            "count": 2
+        },
+        "Boot or Logon Autostart Execution": {
+            "id": "T1547",
+            "count": 2
+        },
+        "Registry Run Keys / Startup Folder": {
+            "id": "T1547.001",
+            "count": 2
+        },
+        "Timestomp": {
+            "id": "T1070.006",
+            "count": 2
+        },
+        "Masquerade Task or Service": {
+            "id": "T1036.004",
+            "count": 2
+        },
+        "Input Capture": {
+            "id": "T1056",
+            "count": 2
+        },
+        "Keylogging": {
+            "id": "T1056.001",
+            "count": 2
+        },
+        "Software Discovery": {
+            "id": "T1518",
+            "count": 2
+        },
+        "Security Software Discovery": {
+            "id": "T1518.001",
+            "count": 2
+        },
+        "Gather Victim Identity Information": {
+            "id": "T1589",
+            "count": 1
+        },
+        "Email Addresses": {
+            "id": "T1589.002",
+            "count": 1
+        },
+        "Gather Victim Org Information": {
+            "id": "T1591",
+            "count": 1
+        },
+        "Identify Roles": {
+            "id": "T1591.004",
+            "count": 1
+        },
+        "Search Open Websites/Domains": {
+            "id": "T1593",
+            "count": 1
+        },
+        "Social Media": {
+            "id": "T1593.001",
+            "count": 1
+        },
+        "Gather Victim Host Information": {
+            "id": "T1592",
+            "count": 1
+        },
+        "Software": {
+            "id": "T1592.002",
+            "count": 1
+        },
+        "Acquire Infrastructure": {
+            "id": "T1583",
+            "count": 1
+        },
+        "Domains": {
+            "id": "T1583.001",
+            "count": 1
+        },
+        "Server": {
+            "id": "T1583.004",
+            "count": 1
+        },
+        "Web Services": {
+            "id": "T1583.006",
+            "count": 1
+        },
+        "Compromise Infrastructure": {
+            "id": "T1584",
+            "count": 1
+        },
+        "Develop Capabilities": {
+            "id": "T1587",
+            "count": 1
+        },
+        "Code Signing Certificates": {
+            "id": "T1587.002",
+            "count": 1
+        },
+        "Establish Accounts": {
+            "id": "T1585",
+            "count": 1
+        },
+        "Social Media Accounts": {
+            "id": "T1585.001",
+            "count": 1
+        },
+        "Email Accounts": {
+            "id": "T1585.002",
+            "count": 1
+        },
+        "Digital Certificates": {
+            "id": "T1588.004",
+            "count": 1
+        },
+        "Stage Capabilities": {
+            "id": "T1608",
+            "count": 1
+        },
+        "Upload Malware": {
+            "id": "T1608.001",
+            "count": 1
+        },
+        "Upload Tool": {
+            "id": "T1608.002",
+            "count": 1
+        },
+        "Web Shell": {
+            "id": "T1505.003",
+            "count": 1
+        },
+        "KernelCallbackTable": {
+            "id": "T1574.013",
+            "count": 1
+        },
+        "IIS Components": {
+            "id": "T1505.004",
+            "count": 1
+        },
+        "Command Obfuscation": {
+            "id": "T1027.010",
+            "count": 1
+        },
+        "Hide Artifacts": {
+            "id": "T1564",
+            "count": 1
+        },
+        "Hidden Files and Directories": {
+            "id": "T1564.001",
+            "count": 1
+        },
+        "Masquerade File Type": {
+            "id": "T1036.008",
+            "count": 1
+        },
+        "Dynamic API Resolution": {
+            "id": "T1027.007",
+            "count": 1
+        },
+        "Encrypted/Encoded File": {
+            "id": "T1027.013",
+            "count": 1
+        },
+        "Code Signing": {
+            "id": "T1553.002",
+            "count": 1
+        },
+        "Virtualization/Sandbox Evasion": {
+            "id": "T1497",
+            "count": 1
+        },
+        "System Checks": {
+            "id": "T1497.001",
+            "count": 1
+        },
+        "Time Based Evasion": {
+            "id": "T1497.003",
+            "count": 1
+        },
+        "Steganography": {
+            "id": "T1027.003",
+            "count": 1
+        },
+        "System Location Discovery": {
+            "id": "T1614",
+            "count": 1
+        },
+        "System Language Discovery": {
+            "id": "T1614.001",
+            "count": 1
+        },
+        "Archive via Library": {
+            "id": "T1560.002",
+            "count": 1
+        },
+        "Archive via Custom Method": {
+            "id": "T1560.003",
+            "count": 1
+        },
+        "Data Staged": {
+            "id": "T1074",
+            "count": 1
+        },
+        "Local Data Staging": {
+            "id": "T1074.001",
+            "count": 1
+        }
+    }
+}

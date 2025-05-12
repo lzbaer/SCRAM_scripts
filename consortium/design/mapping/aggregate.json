@@ -1,0 +1,1225 @@
+{
+    "Techniques": {
+        "Obtain Capabilities": {
+            "count": 5,
+            "id": "T1588",
+            "Resource Development": 5
+        },
+        "Tool": {
+            "count": 4,
+            "id": "T1588.002",
+            "Resource Development": 4
+        },
+        "Phishing": {
+            "count": 4,
+            "id": "T1566",
+            "Initial Access": 4
+        },
+        "Spearphishing Attachment": {
+            "count": 4,
+            "id": "T1566.001",
+            "Initial Access": 4
+        },
+        "User Execution": {
+            "count": 4,
+            "id": "T1204",
+            "Execution": 4
+        },
+        "Malicious File": {
+            "count": 4,
+            "id": "T1204.002",
+            "Execution": 4
+        },
+        "Create or Modify System Process": {
+            "count": 4,
+            "id": "T1543",
+            "Persistence": 4
+        },
+        "Windows Service": {
+            "count": 4,
+            "id": "T1543.003",
+            "Persistence": 4
+        },
+        "Obfuscated Files or Information": {
+            "count": 4,
+            "id": "T1027",
+            "Defense Evasion": 4
+        },
+        "System Binary Proxy Execution": {
+            "count": 4,
+            "id": "T1218",
+            "Defense Evasion": 4
+        },
+        "Command and Scripting Interpreter": {
+            "count": 3,
+            "id": "T1059",
+            "Execution": 3
+        },
+        "PowerShell": {
+            "count": 3,
+            "id": "T1059.001",
+            "Execution": 3
+        },
+        "Windows Command Shell": {
+            "count": 3,
+            "id": "T1059.003",
+            "Execution": 3
+        },
+        "Visual Basic": {
+            "count": 3,
+            "id": "T1059.005",
+            "Execution": 3
+        },
+        "Scheduled Task/Job": {
+            "count": 3,
+            "id": "T1053",
+            "Execution": 3
+        },
+        "Scheduled Task": {
+            "count": 3,
+            "id": "T1053.005",
+            "Execution": 3
+        },
+        "Impair Defenses": {
+            "count": 3,
+            "id": "T1562",
+            "Defense Evasion": 3
+        },
+        "Disable or Modify System Firewall": {
+            "count": 3,
+            "id": "T1562.004",
+            "Defense Evasion": 3
+        },
+        "Indicator Removal": {
+            "count": 3,
+            "id": "T1070",
+            "Defense Evasion": 3
+        },
+        "File Deletion": {
+            "count": 3,
+            "id": "T1070.004",
+            "Defense Evasion": 3
+        },
+        "Rundll32": {
+            "count": 3,
+            "id": "T1218.011",
+            "Defense Evasion": 3
+        },
+        "Application Layer Protocol": {
+            "count": 3,
+            "id": "T1071",
+            "Command and Control": 3
+        },
+        "Web Protocols": {
+            "count": 3,
+            "id": "T1071.001",
+            "Command and Control": 3
+        },
+        "Malware": {
+            "count": 2,
+            "id": "T1587.001",
+            "Resource Development": 2
+        },
+        "Spearphishing Link": {
+            "count": 2,
+            "id": "T1566.002",
+            "Initial Access": 2
+        },
+        "Malicious Link": {
+            "count": 2,
+            "id": "T1204.001",
+            "Execution": 2
+        },
+        "Server Software Component": {
+            "count": 2,
+            "id": "T1505",
+            "Persistence": 2
+        },
+        "Boot or Logon Autostart Execution": {
+            "count": 2,
+            "id": "T1547",
+            "Persistence": 2
+        },
+        "Registry Run Keys / Startup Folder": {
+            "count": 2,
+            "id": "T1547.001",
+            "Persistence": 2
+        },
+        "Timestomp": {
+            "count": 2,
+            "id": "T1070.006",
+            "Defense Evasion": 2
+        },
+        "Software Packing": {
+            "count": 2,
+            "id": "T1027.002",
+            "Defense Evasion": 2
+        },
+        "Regsvr32": {
+            "count": 2,
+            "id": "T1218.010",
+            "Defense Evasion": 2
+        },
+        "Masquerading": {
+            "count": 2,
+            "id": "T1036",
+            "Defense Evasion": 2
+        },
+        "Masquerade Task or Service": {
+            "count": 2,
+            "id": "T1036.004",
+            "Defense Evasion": 2
+        },
+        "Match Legitimate Name or Location": {
+            "count": 2,
+            "id": "T1036.005",
+            "Defense Evasion": 2
+        },
+        "Input Capture": {
+            "count": 2,
+            "id": "T1056",
+            "Credential Access": 2
+        },
+        "Keylogging": {
+            "count": 2,
+            "id": "T1056.001",
+            "Credential Access": 2
+        },
+        "Software Discovery": {
+            "count": 2,
+            "id": "T1518",
+            "Discovery": 2
+        },
+        "Security Software Discovery": {
+            "count": 2,
+            "id": "T1518.001",
+            "Discovery": 2
+        },
+        "Remote Services": {
+            "count": 2,
+            "id": "T1021",
+            "Lateral Movement": 2
+        },
+        "Remote Desktop Protocol": {
+            "count": 2,
+            "id": "T1021.001",
+            "Lateral Movement": 2
+        },
+        "Encrypted Channel": {
+            "count": 2,
+            "id": "T1573",
+            "Command and Control": 2
+        },
+        "Web Service": {
+            "count": 2,
+            "id": "T1102",
+            "Command and Control": 2
+        },
+        "Bidirectional Communication": {
+            "count": 2,
+            "id": "T1102.002",
+            "Command and Control": 2
+        },
+        "Disk Wipe": {
+            "count": 2,
+            "id": "T1561",
+            "Impact": 2
+        },
+        "Disk Structure Wipe": {
+            "count": 2,
+            "id": "T1561.002",
+            "Impact": 2
+        },
+        "Gather Victim Identity Information": {
+            "count": 1,
+            "id": "T1589",
+            "Reconnaissance": 1
+        },
+        "Email Addresses": {
+            "count": 1,
+            "id": "T1589.002",
+            "Reconnaissance": 1
+        },
+        "Gather Victim Org Information": {
+            "count": 1,
+            "id": "T1591",
+            "Reconnaissance": 1
+        },
+        "Identify Roles": {
+            "count": 1,
+            "id": "T1591.004",
+            "Reconnaissance": 1
+        },
+        "Search Open Websites/Domains": {
+            "count": 1,
+            "id": "T1593",
+            "Reconnaissance": 1
+        },
+        "Social Media": {
+            "count": 1,
+            "id": "T1593.001",
+            "Reconnaissance": 1
+        },
+        "Gather Victim Host Information": {
+            "count": 1,
+            "id": "T1592",
+            "Reconnaissance": 1
+        },
+        "Software": {
+            "count": 1,
+            "id": "T1592.002",
+            "Reconnaissance": 1
+        },
+        "Gather Victim Network Information": {
+            "count": 1,
+            "id": "T1590",
+            "Reconnaissance": 1
+        },
+        "IP Addresses": {
+            "count": 1,
+            "id": "T1590.005",
+            "Reconnaissance": 1
+        },
+        "Acquire Infrastructure": {
+            "count": 1,
+            "id": "T1583",
+            "Resource Development": 1
+        },
+        "Domains": {
+            "count": 1,
+            "id": "T1583.001",
+            "Resource Development": 1
+        },
+        "Server": {
+            "count": 1,
+            "id": "T1583.004",
+            "Resource Development": 1
+        },
+        "Web Services": {
+            "count": 1,
+            "id": "T1583.006",
+            "Resource Development": 1
+        },
+        "Compromise Infrastructure": {
+            "count": 1,
+            "id": "T1584",
+            "Resource Development": 1
+        },
+        "Develop Capabilities": {
+            "count": 1,
+            "id": "T1587",
+            "Resource Development": 1
+        },
+        "Code Signing Certificates": {
+            "count": 1,
+            "id": "T1587.002",
+            "Resource Development": 1
+        },
+        "Establish Accounts": {
+            "count": 1,
+            "id": "T1585",
+            "Resource Development": 1
+        },
+        "Social Media Accounts": {
+            "count": 1,
+            "id": "T1585.001",
+            "Resource Development": 1
+        },
+        "Email Accounts": {
+            "count": 1,
+            "id": "T1585.002",
+            "Resource Development": 1
+        },
+        "Digital Certificates": {
+            "count": 1,
+            "id": "T1588.004",
+            "Resource Development": 1
+        },
+        "Stage Capabilities": {
+            "count": 1,
+            "id": "T1608",
+            "Resource Development": 1
+        },
+        "Upload Malware": {
+            "count": 1,
+            "id": "T1608.001",
+            "Resource Development": 1
+        },
+        "Upload Tool": {
+            "count": 1,
+            "id": "T1608.002",
+            "Resource Development": 1
+        },
+        "Supply Chain Compromise": {
+            "count": 1,
+            "id": "T1195",
+            "Initial Access": 1
+        },
+        "Compromise Software Supply Chain": {
+            "count": 1,
+            "id": "T1195.002",
+            "Initial Access": 1
+        },
+        "Spearphishing via Service": {
+            "count": 1,
+            "id": "T1566.003",
+            "Initial Access": 1
+        },
+        "Cron": {
+            "count": 1,
+            "id": "T1053.003",
+            "Execution": 1
+        },
+        "System Services": {
+            "count": 1,
+            "id": "T1569",
+            "Execution": 1
+        },
+        "Service Execution": {
+            "count": 1,
+            "id": "T1569.002",
+            "Execution": 1
+        },
+        "JavaScript": {
+            "count": 1,
+            "id": "T1059.007",
+            "Execution": 1
+        },
+        "Inter-Process Communication": {
+            "count": 1,
+            "id": "T1559",
+            "Execution": 1
+        },
+        "Dynamic Data Exchange": {
+            "count": 1,
+            "id": "T1559.002",
+            "Execution": 1
+        },
+        "Web Shell": {
+            "count": 1,
+            "id": "T1505.003",
+            "Persistence": 1
+        },
+        "Boot or Logon Initialization Scripts": {
+            "count": 1,
+            "id": "T1037",
+            "Persistence": 1
+        },
+        "Logon Script (Windows)": {
+            "count": 1,
+            "id": "T1037.001",
+            "Persistence": 1
+        },
+        "Shortcut Modification": {
+            "count": 1,
+            "id": "T1547.009",
+            "Persistence": 1
+        },
+        "Hijack Execution Flow": {
+            "count": 1,
+            "id": "T1574",
+            "Persistence": 1
+        },
+        "DLL Side-Loading": {
+            "count": 1,
+            "id": "T1574.002",
+            "Persistence": 1
+        },
+        "KernelCallbackTable": {
+            "count": 1,
+            "id": "T1574.013",
+            "Persistence": 1
+        },
+        "Pre-OS Boot": {
+            "count": 1,
+            "id": "T1542",
+            "Persistence": 1
+        },
+        "Bootkit": {
+            "count": 1,
+            "id": "T1542.003",
+            "Persistence": 1
+        },
+        "IIS Components": {
+            "count": 1,
+            "id": "T1505.004",
+            "Persistence": 1
+        },
+        "Abuse Elevation Control Mechanism": {
+            "count": 1,
+            "id": "T1548",
+            "Privilege Escalation": 1
+        },
+        "Bypass User Account Control": {
+            "count": 1,
+            "id": "T1548.002",
+            "Privilege Escalation": 1
+        },
+        "Access Token Manipulation": {
+            "count": 1,
+            "id": "T1134",
+            "Privilege Escalation": 1
+        },
+        "Create Process with Token": {
+            "count": 1,
+            "id": "T1134.002",
+            "Privilege Escalation": 1
+        },
+        "Process Injection": {
+            "count": 1,
+            "id": "T1055",
+            "Privilege Escalation": 1
+        },
+        "Dynamic-link Library Injection": {
+            "count": 1,
+            "id": "T1055.001",
+            "Privilege Escalation": 1
+        },
+        "Impair Command History Logging": {
+            "count": 1,
+            "id": "T1562.003",
+            "Defense Evasion": 1
+        },
+        "Clear Windows Event Logs": {
+            "count": 1,
+            "id": "T1070.001",
+            "Defense Evasion": 1
+        },
+        "Compiled HTML File": {
+            "count": 1,
+            "id": "T1218.001",
+            "Defense Evasion": 1
+        },
+        "Command Obfuscation": {
+            "count": 1,
+            "id": "T1027.010",
+            "Defense Evasion": 1
+        },
+        "CMSTP": {
+            "count": 1,
+            "id": "T1218.003",
+            "Defense Evasion": 1
+        },
+        "Odbcconf": {
+            "count": 1,
+            "id": "T1218.008",
+            "Defense Evasion": 1
+        },
+        "Hide Artifacts": {
+            "count": 1,
+            "id": "T1564",
+            "Defense Evasion": 1
+        },
+        "Hidden Files and Directories": {
+            "count": 1,
+            "id": "T1564.001",
+            "Defense Evasion": 1
+        },
+        "Disable or Modify Tools": {
+            "count": 1,
+            "id": "T1562.001",
+            "Defense Evasion": 1
+        },
+        "Clear Command History": {
+            "count": 1,
+            "id": "T1070.003",
+            "Defense Evasion": 1
+        },
+        "Rename System Utilities": {
+            "count": 1,
+            "id": "T1036.003",
+            "Defense Evasion": 1
+        },
+        "Masquerade File Type": {
+            "count": 1,
+            "id": "T1036.008",
+            "Defense Evasion": 1
+        },
+        "Dynamic API Resolution": {
+            "count": 1,
+            "id": "T1027.007",
+            "Defense Evasion": 1
+        },
+        "Encrypted/Encoded File": {
+            "count": 1,
+            "id": "T1027.013",
+            "Defense Evasion": 1
+        },
+        "Subvert Trust Controls": {
+            "count": 1,
+            "id": "T1553",
+            "Defense Evasion": 1
+        },
+        "Code Signing": {
+            "count": 1,
+            "id": "T1553.002",
+            "Defense Evasion": 1
+        },
+        "Mshta": {
+            "count": 1,
+            "id": "T1218.005",
+            "Defense Evasion": 1
+        },
+        "Virtualization/Sandbox Evasion": {
+            "count": 1,
+            "id": "T1497",
+            "Defense Evasion": 1
+        },
+        "System Checks": {
+            "count": 1,
+            "id": "T1497.001",
+            "Defense Evasion": 1
+        },
+        "Time Based Evasion": {
+            "count": 1,
+            "id": "T1497.003",
+            "Defense Evasion": 1
+        },
+        "Steganography": {
+            "count": 1,
+            "id": "T1027.003",
+            "Defense Evasion": 1
+        },
+        "Adversary-in-the-Middle": {
+            "count": 1,
+            "id": "T1557",
+            "Credential Access": 1
+        },
+        "LLMNR/NBT-NS Poisoning and SMB Relay": {
+            "count": 1,
+            "id": "T1557.001",
+            "Credential Access": 1
+        },
+        "Brute Force": {
+            "count": 1,
+            "id": "T1110",
+            "Credential Access": 1
+        },
+        "Password Spraying": {
+            "count": 1,
+            "id": "T1110.003",
+            "Credential Access": 1
+        },
+        "Account Discovery": {
+            "count": 1,
+            "id": "T1087",
+            "Discovery": 1
+        },
+        "Domain Account": {
+            "count": 1,
+            "id": "T1087.002",
+            "Discovery": 1
+        },
+        "System Location Discovery": {
+            "count": 1,
+            "id": "T1614",
+            "Discovery": 1
+        },
+        "System Language Discovery": {
+            "count": 1,
+            "id": "T1614.001",
+            "Discovery": 1
+        },
+        "SMB/Windows Admin Shares": {
+            "count": 1,
+            "id": "T1021.002",
+            "Lateral Movement": 1
+        },
+        "SSH": {
+            "count": 1,
+            "id": "T1021.004",
+            "Lateral Movement": 1
+        },
+        "Archive Collected Data": {
+            "count": 1,
+            "id": "T1560",
+            "Collection": 1
+        },
+        "Archive via Utility": {
+            "count": 1,
+            "id": "T1560.001",
+            "Collection": 1
+        },
+        "Archive via Library": {
+            "count": 1,
+            "id": "T1560.002",
+            "Collection": 1
+        },
+        "Archive via Custom Method": {
+            "count": 1,
+            "id": "T1560.003",
+            "Collection": 1
+        },
+        "Data Staged": {
+            "count": 1,
+            "id": "T1074",
+            "Collection": 1
+        },
+        "Local Data Staging": {
+            "count": 1,
+            "id": "T1074.001",
+            "Collection": 1
+        },
+        "DNS": {
+            "count": 1,
+            "id": "T1071.004",
+            "Command and Control": 1
+        },
+        "Asymmetric Cryptography": {
+            "count": 1,
+            "id": "T1573.002",
+            "Command and Control": 1
+        },
+        "Data Encoding": {
+            "count": 1,
+            "id": "T1132",
+            "Command and Control": 1
+        },
+        "Standard Encoding": {
+            "count": 1,
+            "id": "T1132.001",
+            "Command and Control": 1
+        },
+        "Data Obfuscation": {
+            "count": 1,
+            "id": "T1001",
+            "Command and Control": 1
+        },
+        "Protocol Impersonation": {
+            "count": 1,
+            "id": "T1001.003",
+            "Command and Control": 1
+        },
+        "Symmetric Cryptography": {
+            "count": 1,
+            "id": "T1573.001",
+            "Command and Control": 1
+        },
+        "Proxy": {
+            "count": 1,
+            "id": "T1090",
+            "Command and Control": 1
+        },
+        "Internal Proxy": {
+            "count": 1,
+            "id": "T1090.001",
+            "Command and Control": 1
+        },
+        "External Proxy": {
+            "count": 1,
+            "id": "T1090.002",
+            "Command and Control": 1
+        },
+        "Exfiltration Over Alternative Protocol": {
+            "count": 1,
+            "id": "T1048",
+            "Exfiltration": 1
+        },
+        "Exfiltration Over Unencrypted Non-C2 Protocol": {
+            "count": 1,
+            "id": "T1048.003",
+            "Exfiltration": 1
+        },
+        "Exfiltration Over Web Service": {
+            "count": 1,
+            "id": "T1567",
+            "Exfiltration": 1
+        },
+        "Exfiltration to Cloud Storage": {
+            "count": 1,
+            "id": "T1567.002",
+            "Exfiltration": 1
+        },
+        "Data Manipulation": {
+            "count": 1,
+            "id": "T1565",
+            "Impact": 1
+        },
+        "Stored Data Manipulation": {
+            "count": 1,
+            "id": "T1565.001",
+            "Impact": 1
+        },
+        "Transmitted Data Manipulation": {
+            "count": 1,
+            "id": "T1565.002",
+            "Impact": 1
+        },
+        "Runtime Data Manipulation": {
+            "count": 1,
+            "id": "T1565.003",
+            "Impact": 1
+        },
+        "Defacement": {
+            "count": 1,
+            "id": "T1491",
+            "Impact": 1
+        },
+        "Internal Defacement": {
+            "count": 1,
+            "id": "T1491.001",
+            "Impact": 1
+        },
+        "Disk Content Wipe": {
+            "count": 1,
+            "id": "T1561.001",
+            "Impact": 1
+        }
+    },
+    "Mitigations": {
+        "Execution Prevention": {
+            "count": 21,
+            "tactics": [
+                "Execution",
+                "Persistence",
+                "Privilege Escalation",
+                "Defense Evasion"
+            ],
+            "id": "M1038",
+            "Command and Scripting Interpreter": 3,
+            "PowerShell": 3,
+            "Windows Command Shell": 3,
+            "Visual Basic": 3,
+            "User Execution": 4,
+            "Malicious File": 4,
+            "JavaScript": 1
+        },
+        "Behavior Prevention on Endpoint": {
+            "count": 19,
+            "tactics": [
+                "Execution",
+                "Persistence",
+                "Privilege Escalation",
+                "Defense Evasion"
+            ],
+            "id": "M1040",
+            "Command and Scripting Interpreter": 3,
+            "Visual Basic": 3,
+            "System Services": 1,
+            "Service Execution": 1,
+            "User Execution": 4,
+            "Malicious File": 4,
+            "JavaScript": 1,
+            "Inter-Process Communication": 1,
+            "Dynamic Data Exchange": 1
+        },
+        "Privileged Account Management": {
+            "count": 15,
+            "tactics": [
+                "Execution",
+                "Persistence",
+                "Privilege Escalation",
+                "Defense Evasion",
+                "Discovery",
+                "Lateral Movement"
+            ],
+            "id": "M1026",
+            "Command and Scripting Interpreter": 3,
+            "PowerShell": 3,
+            "Scheduled Task/Job": 3,
+            "Scheduled Task": 3,
+            "System Services": 1,
+            "Service Execution": 1,
+            "Inter-Process Communication": 1
+        },
+        "Disable or Remove Feature or Program": {
+            "count": 12,
+            "tactics": [
+                "Execution",
+                "Persistence",
+                "Defense Evasion",
+                "Credential Access",
+                "Lateral Movement"
+            ],
+            "id": "M1042",
+            "Command and Scripting Interpreter": 3,
+            "PowerShell": 3,
+            "Visual Basic": 3,
+            "JavaScript": 1,
+            "Inter-Process Communication": 1,
+            "Dynamic Data Exchange": 1
+        },
+        "User Training": {
+            "count": 11,
+            "tactics": [
+                "Initial Access",
+                "Execution",
+                "Defense Evasion",
+                "Credential Access"
+            ],
+            "id": "M1017",
+            "Phishing": 4,
+            "Spearphishing Attachment": 4,
+            "Spearphishing Link": 2,
+            "Spearphishing via Service": 1
+        },
+        "Restrict Web-Based Content": {
+            "count": 11,
+            "tactics": [
+                "Initial Access",
+                "Execution",
+                "Defense Evasion",
+                "Command and Control",
+                "Exfiltration"
+            ],
+            "id": "M1021",
+            "Phishing": 4,
+            "Spearphishing Attachment": 4,
+            "Spearphishing Link": 2,
+            "Spearphishing via Service": 1
+        },
+        "Software Configuration": {
+            "count": 10,
+            "tactics": [
+                "Initial Access",
+                "Execution",
+                "Persistence",
+                "Defense Evasion"
+            ],
+            "id": "M1054",
+            "Phishing": 4,
+            "Spearphishing Attachment": 4,
+            "Spearphishing Link": 2
+        },
+        "Pre-compromise": {
+            "count": 9,
+            "tactics": [
+                "Reconnaissance",
+                "Resource Development"
+            ],
+            "id": "M1056",
+            "Gather Victim Identity Information": 1,
+            "Email Addresses": 1,
+            "Gather Victim Org Information": 1,
+            "Identify Roles": 1,
+            "Social Media": 1,
+            "Gather Victim Host Information": 1,
+            "Software": 1,
+            "Gather Victim Network Information": 1,
+            "IP Addresses": 1
+        },
+        "Antivirus/Antimalware": {
+            "count": 9,
+            "tactics": [
+                "Initial Access",
+                "Execution",
+                "Defense Evasion"
+            ],
+            "id": "M1049",
+            "Phishing": 4,
+            "Spearphishing Attachment": 4,
+            "Spearphishing via Service": 1
+        },
+        "Exploit Protection": {
+            "count": 9,
+            "tactics": [
+                "Defense Evasion"
+            ],
+            "id": "M1050",
+            "System Binary Proxy Execution": 4,
+            "Rundll32": 3,
+            "Regsvr32": 2
+        },
+        "Network Intrusion Prevention": {
+            "count": 8,
+            "tactics": [
+                "Initial Access",
+                "Execution",
+                "Credential Access",
+                "Command and Control",
+                "Exfiltration"
+            ],
+            "id": "M1031",
+            "Phishing": 4,
+            "Spearphishing Attachment": 4
+        },
+        "Data Backup": {
+            "count": 7,
+            "tactics": [
+                "Impact"
+            ],
+            "id": "M1053",
+            "Disk Wipe": 2,
+            "Disk Structure Wipe": 2,
+            "Defacement": 1,
+            "Internal Defacement": 1,
+            "Disk Content Wipe": 1
+        },
+        "Code Signing": {
+            "count": 6,
+            "tactics": [
+                "Execution",
+                "Persistence",
+                "Defense Evasion"
+            ],
+            "id": "M1045",
+            "Command and Scripting Interpreter": 3,
+            "PowerShell": 3
+        },
+        "Operating System Configuration": {
+            "count": 6,
+            "tactics": [
+                "Execution",
+                "Persistence",
+                "Privilege Escalation",
+                "Defense Evasion",
+                "Discovery",
+                "Lateral Movement"
+            ],
+            "id": "M1028",
+            "Scheduled Task/Job": 3,
+            "Scheduled Task": 3
+        },
+        "Restrict File and Directory Permissions": {
+            "count": 5,
+            "tactics": [
+                "Execution",
+                "Persistence",
+                "Privilege Escalation",
+                "Defense Evasion",
+                "Exfiltration",
+                "Impact"
+            ],
+            "id": "M1022",
+            "Scheduled Task/Job": 3,
+            "System Services": 1,
+            "Service Execution": 1
+        },
+        "Restrict Registry Permissions": {
+            "count": 5,
+            "tactics": [
+                "Persistence",
+                "Defense Evasion"
+            ],
+            "id": "M1024",
+            "Server Software Component": 2,
+            "Boot or Logon Initialization Scripts": 1,
+            "Logon Script (Windows)": 1,
+            "Hijack Execution Flow": 1
+        },
+        "Remote Data Storage": {
+            "count": 5,
+            "tactics": [
+                "Defense Evasion",
+                "Impact"
+            ],
+            "id": "M1029",
+            "Indicator Removal": 3,
+            "Clear Windows Event Logs": 1,
+            "Clear Command History": 1
+        },
+        "Encrypt Sensitive Information": {
+            "count": 4,
+            "tactics": [
+                "Defense Evasion",
+                "Credential Access",
+                "Impact"
+            ],
+            "id": "M1041",
+            "Indicator Removal": 3,
+            "Clear Windows Event Logs": 1
+        },
+        "Filter Network Traffic": {
+            "count": 4,
+            "tactics": [
+                "Defense Evasion",
+                "Credential Access",
+                "Lateral Movement",
+                "Command and Control",
+                "Exfiltration"
+            ],
+            "id": "M1037",
+            "System Binary Proxy Execution": 4
+        },
+        "SSL/TLS Inspection": {
+            "count": 4,
+            "tactics": [
+                "Command and Control"
+            ],
+            "id": "M1020",
+            "Encrypted Channel": 2,
+            "Asymmetric Cryptography": 1,
+            "Proxy": 1
+        },
+        "Data Loss Prevention": {
+            "count": 3,
+            "tactics": [
+                "Exfiltration"
+            ],
+            "id": "M1057",
+            "Exfiltration Over Alternative Protocol": 1,
+            "Exfiltration Over Unencrypted Non-C2 Protocol": 1,
+            "Exfiltration Over Web Service": 1
+        },
+        "Update Software": {
+            "count": 2,
+            "tactics": [
+                "Initial Access",
+                "Persistence",
+                "Privilege Escalation"
+            ],
+            "id": "M1051",
+            "Supply Chain Compromise": 1,
+            "Compromise Software Supply Chain": 1
+        },
+        "Vulnerability Scanning": {
+            "count": 2,
+            "tactics": [
+                "Initial Access"
+            ],
+            "id": "M1016",
+            "Supply Chain Compromise": 1,
+            "Compromise Software Supply Chain": 1
+        },
+        "User Account Management": {
+            "count": 2,
+            "tactics": [
+                "Initial Access",
+                "Execution",
+                "Persistence",
+                "Privilege Escalation",
+                "Defense Evasion",
+                "Credential Access",
+                "Discovery",
+                "Lateral Movement",
+                "Exfiltration"
+            ],
+            "id": "M1018",
+            "Spearphishing Link": 2
+        },
+        "Application Isolation and Sandboxing": {
+            "count": 2,
+            "tactics": [
+                "Execution"
+            ],
+            "id": "M1048",
+            "Inter-Process Communication": 1,
+            "Dynamic Data Exchange": 1
+        },
+        "Environment Variable Permissions": {
+            "count": 2,
+            "tactics": [
+                "Defense Evasion"
+            ],
+            "id": "M1039",
+            "Impair Command History Logging": 1,
+            "Clear Command History": 1
+        },
+        "Network Segmentation": {
+            "count": 2,
+            "tactics": [
+                "Credential Access",
+                "Discovery",
+                "Lateral Movement",
+                "Exfiltration",
+                "Impact"
+            ],
+            "id": "M1030",
+            "Adversary-in-the-Middle": 1,
+            "LLMNR/NBT-NS Poisoning and SMB Relay": 1
+        },
+        "Account Use Policies": {
+            "count": 2,
+            "tactics": [
+                "Credential Access"
+            ],
+            "id": "M1036",
+            "Brute Force": 1,
+            "Password Spraying": 1
+        },
+        "Multi-factor Authentication": {
+            "count": 2,
+            "tactics": [
+                "Credential Access",
+                "Discovery",
+                "Lateral Movement"
+            ],
+            "id": "M1032",
+            "Brute Force": 1,
+            "Password Spraying": 1
+        },
+        "Password Policies": {
+            "count": 2,
+            "tactics": [
+                "Credential Access",
+                "Lateral Movement"
+            ],
+            "id": "M1027",
+            "Brute Force": 1,
+            "Password Spraying": 1
+        },
+        "Audit": {
+            "count": 1,
+            "tactics": [
+                "Reconnaissance",
+                "Initial Access",
+                "Execution",
+                "Persistence",
+                "Privilege Escalation",
+                "Defense Evasion",
+                "Lateral Movement",
+                "Collection"
+            ],
+            "id": "M1047",
+            "Search Open Websites/Domains": 1
+        },
+        "Application Developer Guidance": {
+            "count": 1,
+            "tactics": [
+                "Reconnaissance",
+                "Initial Access",
+                "Execution",
+                "Persistence",
+                "Defense Evasion"
+            ],
+            "id": "M1013",
+            "Search Open Websites/Domains": 1
+        },
+        "Limit Software Installation": {
+            "count": 1,
+            "tactics": [
+                "Initial Access",
+                "Persistence",
+                "Defense Evasion"
+            ],
+            "id": "M1033",
+            "Supply Chain Compromise": 1
+        },
+        "Boot Integrity": {
+            "count": 1,
+            "tactics": [
+                "Initial Access",
+                "Persistence"
+            ],
+            "id": "M1046",
+            "Supply Chain Compromise": 1
+        },
+        "User Account Control": {
+            "count": 1,
+            "tactics": [
+                "Persistence",
+                "Privilege Escalation"
+            ],
+            "id": "M1052",
+            "Hijack Execution Flow": 1
+        },
+        "Restrict Library Loading": {
+            "count": 1,
+            "tactics": [
+                "Persistence"
+            ],
+            "id": "M1044",
+            "Hijack Execution Flow": 1
+        },
+        "Limit Access to Resource Over Network": {
+            "count": 1,
+            "tactics": [
+                "Persistence",
+                "Credential Access",
+                "Lateral Movement"
+            ],
+            "id": "M1035",
+            "Pre-OS Boot": 1
+        }
+    }
+}
